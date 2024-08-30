@@ -1,0 +1,29 @@
+client - react application 
+smart_contract - solidity contract
+
+initialize react app with vite (in a few seconds, avoid waiting for create-react app)
+$ cd ./client
+
+$ npm init vite@latest
+(prompts)
+Project name: ./
+Package name: krypt
+language: react
+variant: react
+
+$ npm i
+$ npm run dev
+________________________________________________________________________________________________
+
+Styles will use TailwindCSS
+
+Setup
+$ npm install -D tailwindcss postcss autoprefixer
+$ npx tailwindcss init
+copy/paste tailwind paths to tailwind.config.js
+
+$ npm install react-icons ethers
+// ethers allows interactions w/blockchain & smart contracts
+
+
+
